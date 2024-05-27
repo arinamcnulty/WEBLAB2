@@ -63,30 +63,30 @@ body {
 
 /* Стилі для контейнера, що включає поле вводу і кнопку */
 .add-item {
-    display: flex; /* Використання flexbox для розміщення елементів у рядок */
-    width: 100%; /* Заповнення доступного горизонтального простору */
+    display: flex; 
+    width: 100%; 
 }
 
 /* Стилі для поля вводу */
 .add-item input {
-    flex: 1 0 auto; /* Поле вводу автоматично займає всю доступну ширину, але не менше своєї базової ширини */
-    margin-right: 0px; /* Невеликий відступ справа від поля вводу до кнопки */
-    padding: 10px; /* Додатковий внутрішній відступ для кращого вигляду тексту */
-    border: 1px solid #ccc; /* Сіра рамка навколо поля вводу */
+    flex: 1 0 auto; 
+    margin-right: 0px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
     border-radius: 5px 0 0 5px; 
 }
 
 
 /* Стилі для кнопки "Додати" */
 .add-button {
-    flex: 0 1 100px; /* Кнопка має фіксовану максимальну ширину 100px і може зменшуватися */
+    flex: 0 1 100px; 
     padding: 10px 20px; /* Внутрішні відступи для тексту всередині кнопки */
-    border: none; /* Відсутність рамки навколо кнопки */
-    background-color: #007bff; /* Синій колір фону кнопки */
-    color: white; /* Білий колір тексту кнопки */
-    font-size: 16px; /* Розмір шрифту тексту кнопки */
-    border-radius: 0 5px 5px 0; /* Закруглення правих кутів кнопки */
-    cursor: pointer; /* Вказівник курсору змінюється на покажчик при наведенні */
+    border: none; 
+    background-color: #007bff; 
+    color: white;
+    font-size: 16px; 
+    border-radius: 0 5px 5px 0; 
+    cursor: pointer; 
 }
 
 .item-list .flex-container {
@@ -152,9 +152,9 @@ body {
     color: white;
     background-color: green;
     border-color: green;
-    border-radius: 50%;  /* Зробити кнопки круглими */
-    width: 40px;         /* Задати фіксовану ширину */
-    height: 40px;        /* Задати фіксовану висоту */
+    border-radius: 50%;  
+    width: 40px;        
+    height: 40px;       
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,9 +164,9 @@ body {
     color: white;
     background-color: red;
     border-color: red;
-    border-radius: 50%;  /* Зробити кнопки круглими */
-    width: 40px;         /* Задати фіксовану ширину */
-    height: 40px;        /* Задати фіксовану висоту */
+    border-radius: 50%;  
+    width: 40px;        
+    height: 40px;       
     display: flex;
     justify-content: center;
     align-items: center;
@@ -209,8 +209,8 @@ body {
 }
 
 .summary {
-    padding: 10px 0; /* Отступы внутри каждой секции, чтобы текст не прилипал к рамке */
-    border-bottom: 1px solid #ccc; /* Рамка между секциями */
+    padding: 10px 0; 
+    border-bottom: 1px solid #ccc; 
 }
 .summary:last-child {
     border-bottom: none;
@@ -221,14 +221,14 @@ h2 {
     
 }
 .summary h2 {
-    border-bottom: 1px solid #ccc; /* Додає сіру лінію під заголовком */
-    padding-bottom: 5px; /* Додає невеликий відступ знизу до заголовка */
-    margin-bottom: 10px; /* Відступ знизу після лінії для відділення від наступного контенту */
+    border-bottom: 1px solid #ccc; 
+    padding-bottom: 5px; 
+    margin-bottom: 10px; 
 }
 
 .summary.remaining {
     display: flex;
-    flex-direction: column; /* Вертикальне розташування елементів */
+    flex-direction: column; 
     align-items: flex-start;
     padding: 10px;
     background-color: #fff;
@@ -239,7 +239,7 @@ h2 {
 
 .summary-item-container {
     display: flex;
-    flex-direction: row;  /* Горизонтальне розташування елементів */
+    flex-direction: row;  
     justify-content: flex-start;
     align-items: center;
     width: 100%;
@@ -273,9 +273,9 @@ h2 {
 }
 .summary-items-row {
     display: flex;
-    flex-direction: row; /* Горизонтальне розташування елементів */
-    justify-content: flex-start; /* Вирівнювання елементів по лівому краю */
-    align-items: center; /* Вирівнювання елементів по вертикалі */
+    flex-direction: row; 
+    justify-content: flex-start; 
+    align-items: center; 
     width: 100%;
 }
 
@@ -346,7 +346,6 @@ h2 {
     border-radius: 5px;
     white-space: nowrap;
     transition: all 0.3s ease;
-
     font-size: 12px;
     font-weight: normal;
     width: fit-content;
@@ -418,8 +417,8 @@ h2 {
 }
 
 .quantity-button {
-    width: 30px; /* Зменшення ширини */
-    height: 30px; /* Зменшення висоти */
+    width: 30px; 
+    height: 30px; 
     margin: 0 5px;
     border-radius: 50%; 
     display: flex;
@@ -523,7 +522,7 @@ h2 {
     left: 0;
     bottom: 0;
     overflow: hidden;
-    border-radius: 10px 10px 0 0;
+    border-radius: 0px 10px 0px 0px;
     transition: height 0.5s ease, background-color 0.5s ease;
     background-color: #aa17c4; /* Темно фіолетовий */
     color: #fff;
@@ -555,21 +554,19 @@ h2 {
         display: block;
         border: none;
         padding: 5px;
-        margin: 10px auto; /* Центрування елемента з автоматичними марджинами зліва та справа */
-        text-align: center; /* Центрування тексту */
+        margin: 10px auto; 
+        text-align: center; 
         width: 90%; /* Запобігає переносу тексту шляхом визначення ширини */
     }
 
 
     .badge-content *:not(.created-by) {
-        display: none; /* Приховує всі елементи крім .created-by */
+        display: none; 
     }
 
     .badge-content .created-by {
-        display: block; /* Показує ім'я автора */
-        font-size: 12px; /* Підтверджує розмір шрифту */
+        display: block; 
+        font-size: 12px; 
     }
     
-   
-
 }
